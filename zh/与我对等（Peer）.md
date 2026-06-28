@@ -2,7 +2,7 @@
 title: 与我对等（Peer）
 description: 与我对等（Peer）
 published: true
-date: 2026-06-28T08:54:53.515Z
+date: 2026-06-28T08:56:58.723Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T08:24:32.494Z
@@ -153,5 +153,3 @@ AFNOOI-MNT 保留根据网络环境和实际情况调整对等策略的权利。
 本页面信息仅供参考，具体以实际协商结果为准。
 
 ---
-
-*最后更新：2026年6月*
