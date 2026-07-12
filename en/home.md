@@ -2,7 +2,7 @@
 title: Home
 description: Home
 published: true
-date: 2026-07-12T08:24:01.734Z
+date: 2026-07-12T08:33:27.173Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-12T08:24:01.734Z
@@ -22,7 +22,7 @@ Feel free to browse around. If you have any questions or would like to collabora
 
 - [Peering](./peering)
 - [Node Information](./nodes)
-- [Public Services](./services)
+- [Public Services](./Public-services)
 - [Contact](./contact)
 
 ---
