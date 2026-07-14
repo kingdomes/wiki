@@ -2,7 +2,7 @@
 title: Node Info
 description: 
 published: true
-date: 2026-07-12T08:29:31.551Z
+date: 2026-07-14T17:33:54.686Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-12T08:29:31.551Z
@@ -22,9 +22,10 @@ This page lists all nodes currently operated by AFNOOI-MNT in the DN42 network ~
 | **CN-2** | Hengyang, China | 500 Mbps | Online | ✔️🌧️ | ✔️ |
 | **CN-3** | Hengyang, China | 500 Mbps | Online | ✔️🌧️ | ✔️ |
 | **US-1** | Utah, USA | 1 Gbps | Online | ✔️🌧️ | ✔️ |
-| **US-2** | Los Angeles, USA | 100 Mbps | Online | ✔️ | ✔️🌧️ |
+| **US-2** | Los Angeles, USA | 1 Gbps | Online | ✔️ | ✔️🌧️ |
 | **HK-1** | Hong Kong, China | 100 Mbps | Online | ✔️🌧️ | ✔️ |
 | **TW-1** | Taiwan, China | 100 Mbps | Online | ✔️🌧️ | ✔️ |
+| **FR-1** | Dunkirk, France | 1 Gbps | Online | ✔️🌧️ | ✔️ |
 | **MD-1** | Chișinău, Moldova | 100 Mbps | Online | ✔️🌧️ | ✔️ |
 | **RU-1** | Moscow, Russia | 1 Gbps | Online | ✔️🌧️ | ✔️ |
 
@@ -83,12 +84,12 @@ This page lists all nodes currently operated by AFNOOI-MNT in the DN42 network ~
 ## US-2 (United States)
 
 - **Location**: Los Angeles, USA
-- **Bandwidth**: 100 Mbps
+- **Bandwidth**: 1 Gbps
 - **Hostname**: `us2.115411.xyz`
 - **IPv4 Address**: `172.23.57.133`
-- **IPv6 Address**: `fdf1:8356:996d:33::`
-- **Link-Local Address (LLA)**: `fe80::1266:6aff:fe58:6770`
-- **WireGuard Public Key**: `JtGlFP42nSNKRL6rUu8IcrGxYZZeDfrYSHI1yt4G0CY=`
+- **IPv6 Address**: `fdf1:8356:996d:54:54::1`
+- **Link-Local Address (LLA)**: `fe80::1266:6aff:fe71:58d9`
+- **WireGuard Public Key**: `Dj72uD8gNa3CQ7uHK/+c+JkNMrqYVxnC+mk1NQrJTH0=`
 
 ---
 
@@ -116,6 +117,18 @@ This page lists all nodes currently operated by AFNOOI-MNT in the DN42 network ~
 
 ---
 
+## FR-1 (France)
+
+- **Location**: France
+- **Bandwidth**: 1 Gbps
+- **Hostname**: `fr1.115411.xyz`
+- **IPv4 Address**: `172.23.57.135`
+- **IPv6 Address**: `fdf1:8356:996d:35::`
+- **Link-Local Address (LLA)**: `fe80::2e1:9aff:fe5a:5e50`
+- **WireGuard Public Key**: `hQBmojxIPnFKnBwknmkzNidryUM47ptlcmL0Ce6Plw8=`
+
+---
+
 ## MD-1 (Moldova)
 
 - **Location**: Chișinău, Moldova
@@ -133,7 +146,7 @@ This page lists all nodes currently operated by AFNOOI-MNT in the DN42 network ~
 - **Location**: Moscow, Russia
 - **Bandwidth**: 1 Gbps
 - **Hostname**: `ru1.115411.xyz`
-- **IPv4 Address**: `172.23.57.125`
+- **IPv4 Address**: `172.23.57.151`
 - **IPv6 Address**: `fdf1:8356:996d:54::1`
 - **Link-Local Address (LLA)**: `fe80::18af:deff:fe49:74ff`
 - **WireGuard Public Key**: `3CrWyAX10kRqNWXh7PqjPcWYksq/OT0Pd2hOO8uyHAE=`
@@ -143,6 +156,6 @@ This page lists all nodes currently operated by AFNOOI-MNT in the DN42 network ~
 ## Notes
 
 - **LLA (Link-Local Address)**: Used for BGP peering or tunnel setup, typically within the `fe80::/10` range ~~?~~.
-- **WG Public Key**: Used for WireGuard tunnel authentication. Please keep it secure and only share with trusted peers.~~
+- **WG Public Key**: Used for WireGuard tunnel authentication. Please keep it secure and only share with trusted peers.
 
 For peering requests, please refer to the [Peering page](./Peering-with-Me) for detailed instructions.
