@@ -2,7 +2,7 @@
 title: Public services
 description: 
 published: true
-date: 2026-07-12T08:34:30.850Z
+date: 2026-07-22T15:43:06.648Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-12T08:34:30.850Z
@@ -28,12 +28,9 @@ This page lists the public services provided by AFNOOI-Network to the DN42 commu
 
 The Looking Glass service is used to view routing tables, BGP session status, and perform network connectivity tests.
 
-| Node | Address | Protocol |
-| :--- | :--- | :--- |
-| **CN-1** | `https://dn42.115411.xyz/cn1` | IPv4 / IPv6 |
-| **CN-2** | `https://dn42.115411.xyz/cn2` | IPv4 / IPv6 |
-| **CN-3** | `https://dn42.115411.xyz/cn3` | IPv4 / IPv6 |
-| **US-1** | `https://dn42.115411.xyz/us1` | IPv4 / IPv6 |
+| Service | Address |
+| :--- | :--- |
+| **Looking Glass** | `https://dn42.115411.xyz` |
 
 ### Usage
 
@@ -49,6 +46,22 @@ FlapAlerted is used to monitor route flapping.
 | Service | Address |
 | :--- | :--- |
 | **FlapAlerted** | `https://fa-dn42.115411.xyz` |
+
+---
+
+## Auto-Peering
+
+We provide an automated peering service for DN42 community members to simplify the connection process.
+
+| Service | Address | Description |
+| :--- | :--- | :--- |
+| **Auto-Peer Endpoint** | `https://peer.115411.xyz` | Use this endpoint to automatically establish a BGP session with AFNOOI-Network |
+
+### Usage
+
+1.  Point your peering configuration to `peer.115411.xyz`.
+2.  The system will automatically handle BGP session negotiation and establishment.
+3.  For any issues, please contact the NOC via IRC or email.
 
 ---
 
